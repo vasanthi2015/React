@@ -1,11 +1,12 @@
 import React from "react";
-import "../index.css";
+import classes from './result.module.css';
+
 import InvestmentItem from "./InvestmentItem";
 const InvestmentReport = (props) => {
-  console.log("init" +props.initialInvestment);
+  
   return (
     <div>
-      <table className="result">
+      <table className={classes.result}>
         <thead>
           <tr>
             <th>Year</th>

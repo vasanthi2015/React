@@ -1,4 +1,5 @@
 import React from "react";
+import classes from './result.module.css';
 
 const formatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
@@ -8,8 +9,7 @@ const formatter = new Intl.NumberFormat('en-US', {
 });
 
 const InvestmentItem = (props) => {
-  console.log(props.initialInvestment);
-  console.log(props.yearlyContribution);
+  
   
   return(
   <tr>
